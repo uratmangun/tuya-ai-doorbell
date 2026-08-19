@@ -37,3 +37,26 @@ explainer-video/.cache/
 # BLE Config Web
 ble-config-web/.vercel/
 ble-config-web/node_modules/
+
+# --- cascade-archive ---
+node_modules/
+.next/
+.turbo/
+dist/
+build/
+coverage/
+out/
+.venv/
+venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.example.*
+credentials.json
+*.pem
+*.sst
+platform/tools/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
+platform/T5AI/tuyaos/tools/startup_image/jpeg2rgb_tool/bin/ffmpeg.exe
